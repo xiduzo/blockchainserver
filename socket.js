@@ -4,7 +4,7 @@ var http = require('http');
 var webSocketsServerPort = 1337;
 var server = http.createServer(function(request, response) {});
 
-server.listen(webSocketsServerPort, function() {
+server.listen(process.env.PORT || webSocketsServerPort, function() {
   console.log((new Date()) + " Websockets is listening on port " + webSocketsServerPort);
 });
 
