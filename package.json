@@ -1,5 +1,5 @@
 {
-  "name": "angular game server",
+  "name": "angulargameserver",
   "version": "0.0.0",
   "dependencies": {
     "http": "0.0.0",
